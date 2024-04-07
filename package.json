@@ -1,0 +1,19 @@
+{
+  "name": "chci-volny-termin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "najdiTermin": "node_modules/.bin/cypress run --spec \"cypress/e2e/spec.cy.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
